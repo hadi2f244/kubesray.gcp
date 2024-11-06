@@ -106,3 +106,7 @@ variable "extra_ingress_firewalls" {
 
   default = {}
 }
+
+variable "inventory_file" {
+  description = "Where to store the generated inventory file"
+}
